@@ -37,17 +37,14 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (currentAnswer1ID) {
                     case R.string.T1_Ans1:
-
                         changeStory(R.string.T3_Story, R.string.T3_Ans1, R.string.T3_Ans2);
                         break;
 
                     case R.string.T2_Ans1:
-
                         changeStory(R.string.T3_Story, R.string.T3_Ans1, R.string.T3_Ans2);
                         break;
 
                     case R.string.T3_Ans1:
-
                         endStory(R.string.T6_End);
                         break;
                 }
@@ -64,17 +61,14 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (currentAnswer2ID) {
                     case R.string.T1_Ans2:
-
                         changeStory(R.string.T2_Story, R.string.T2_Ans1, R.string.T2_Ans2);
                         break;
 
                     case R.string.T2_Ans2:
-
                         endStory(R.string.T4_End);
                         break;
 
                     case R.string.T3_Ans2:
-
                         endStory(R.string.T5_End);
                         break;
                 }
